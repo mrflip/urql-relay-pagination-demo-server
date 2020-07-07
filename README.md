@@ -1,2 +1,5 @@
 # urql-relay-pagination-demo-server
-Created with CodeSandbox
+
+Example Todo list API with Relay-style pagination
+
+See example.graphql for how to query it.
