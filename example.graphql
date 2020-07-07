@@ -1,0 +1,22 @@
+query Todos {
+  todos(
+    first: 4
+    after: "0"
+  ) {
+    totalCount
+    pageInfo { hasNextPage endCursor }
+    nodes { id text complete }
+    edges { node { id text complete } }
+  }
+}
+
+query Messages {
+  messages(
+    first: 3,
+  ) {
+    totalCount
+    pageInfo { hasNextPage endCursor }
+    nodes { id message from }
+    edges { node { id message from } }
+  }
+}

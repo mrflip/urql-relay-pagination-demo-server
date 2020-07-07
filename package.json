@@ -1,6 +1,6 @@
 {
-  "name": "relay-pagination-server",
-  "description": "",
+  "name": "urql-relay-pagination-demo-server",
+  "description": "mrflip/urql-relay-pagination-demo-server",
   "dependencies": {
     "apollo-server": "2.14.4",
     "graphql": "14.2.1",
